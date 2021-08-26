@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<title>Task-8</title>
+
+<body>
+
+    <form action="" method="POST">
+        <label for="username">username</label><br>
+        <input type="text" id="username" name="user" readonly value="walid">
+        <hr>
+        <label for="password">password</label><br>
+        <input type="password" id="password" name="pass" required placeholder="password">
+        <hr>
+        <label for="config">config</label><br>
+        <input type="text" id="config" name="config" maxlength="5" size="5"><br>
+        <hr>
+        <label for="email">email</label><br>
+        <input type="email" id="email" name="mail" required placeholder="example@gmail.com">
+        <hr>
+        <!-- start of hidden input-->
+        <input type="hidden" id="custId" name="custId" value="3487">
+        <!-- End of hidden input-->
+        <!-- ************* -->
+        <!-- start of radio -->
+
+        <input type="radio" id="linux" name="lang" value="Linux" multiple>
+        <label for="linux">Linux</label><br>
+        <input type="radio" id="Windows" name="lang" value="Windows" multiple>
+        <label for="Windows">Windows</label><br>
+        <input type="radio" id="OS" name="language" value="OS" multiple>
+        <label for="OS">OS</label><br>
+        <hr>
+        <!-- End of radio -->
+        <!-- ************* -->
+        <!-- start of checkbox -->
+        <input type="checkbox" id="mobile1" name="mobile1" value="Iphone">
+        <label for="mobile1"> Iphone</label><br>
+        <input type="checkbox" id="mobile2" name="mobile2" value="samsung">
+        <label for="mobile2"> Samsung</label><br>
+        <input type="checkbox" id="mobile3" name="mobile3" value="shawmi">
+        <label for="mobile3"> Shawmi</label><br>
+        <!-- End of checkbox -->
+        <hr>
+        <input type="submit" value="send">
+    </form>
+</body>
+
+</html>
