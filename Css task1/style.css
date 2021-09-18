@@ -1,0 +1,21 @@
+/* valid */
+._my-div {
+}
+/* valid */
+.-my-div {
+}
+/* no nalid */
+.12my-div {
+}
+/* no valid */
+.% my-div {
+}
+/* no valid */
+.@my-div {
+}
+/* valid */
+._my78div {
+}
+/* valid */
+.div {
+}
