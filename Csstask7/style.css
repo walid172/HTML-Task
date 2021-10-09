@@ -1,0 +1,10 @@
+.parg-one {
+  font-family: "Segoe UI";
+  background-color: #dbdbdb;
+  padding: 25px;
+  border-left: 5px solid red;
+}
+span {
+  color: red;
+  font-size: 20px;
+}
