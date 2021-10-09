@@ -1,0 +1,26 @@
+/*   Common rules   */
+.div-one,
+.div-two,
+.div-three {
+  font-family: "Segoe UI";
+  width: 300px;
+  height: 120px;
+  padding: 20px;
+}
+body,
+.div-two,
+.div-three {
+  background-image: url(Q.png);
+  background-size: cover;
+}
+/*   divs rules   */
+.div-one {
+  background-image: url(xp.png);
+  background-size: cover;
+}
+.div-two {
+  color: rgb(255, 255, 255);
+}
+.div-three {
+  color: rgb(255, 255, 255);
+}
