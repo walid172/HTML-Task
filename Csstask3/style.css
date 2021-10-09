@@ -1,0 +1,30 @@
+/*   Common rules   */
+.div-one,
+.div-two,
+.div-three,
+.div-four {
+  width: 400px;
+  height: 400px;
+  padding: 25px;
+  color: rgb(0, 0, 0);
+  background-image: url(apple3.jpg);
+}
+/*   div one rules   */
+.div-one {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*   div two rules   */
+.div-two {
+  background-repeat: repeat-y;
+  background-position-x: right;
+}
+/*   div three rules   */
+.div-three {
+  background-repeat: repeat-x;
+  background-position-y: bottom;
+}
+/*   div four rules   */
+.div-four {
+  background-repeat: repeat;
+}
