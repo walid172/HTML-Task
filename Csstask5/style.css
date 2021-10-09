@@ -1,0 +1,26 @@
+/*   Common rules   */
+.parg-one,
+.parg-two,
+.parg-three {
+  font-family: "Segoe UI";
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  display: inline-block;
+}
+/*   paragraphs rules   */
+.parg-one {
+  border: 5px solid red;
+}
+.parg-two {
+  background-color: #7700ff;
+  color: #fff;
+  border-left: 5px dashed red;
+  border-right: 5px dotted red;
+}
+.parg-three {
+  background-color: #c4c4c4;
+  color: #fff;
+  border-top: 5px dashed red;
+  border-bottom: 5px solid red;
+}
