@@ -1,0 +1,220 @@
+/*** 
+Genrall rolls
+***/
+:root {
+    --main-color : #0d6efd;
+    --font-color : #000;
+    --font-color-2 : #fff;
+    --background-color :#eff6ff;
+}
+
+/*** 
+main navgation style
+***/
+.navbar-brand {
+    font-weight: bold;
+}
+.far {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: var(--main-color);
+}
+.nav-link {
+    color: var(--font-color);
+    font-weight: 400;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: var(--font-color);
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-expand-lg .navbar-nav {
+    margin-right: 50px;
+}
+.dropdown, .dropend, .dropstart, .dropup {
+    margin-right: 25px;
+}
+.d-flex {
+    align-items: center;
+}
+/*** 
+main navgation style
+***/
+/*** 
+landing-background
+***/
+.landing-background {
+    height: 600px;
+    background-image: url(/images/main-home-illustration.svg);
+    background-color: var(--background-color);
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.descreption-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    position: absolute;
+    top: 27%;
+}
+.main-header,
+.main-desception {
+    width: 400px;
+}
+.secondary-one {
+    color: #fff;
+    background-color: #3c6efd;
+}
+.secondary-tow {
+    background-color: #ffffff00;
+    border: 1px solid var(--font-color);
+    color: var(--font-color);
+}
+.btn:hover {
+    background-color: rgb(64, 139, 224);
+    color: var(--font-color-2);
+}
+.fa-arrow-right:before {
+    content: "\f061";
+    margin-left: 10px;
+    font-weight: 200;
+}
+/*** 
+landing-background
+***/
+/*** 
+Our services
+***/
+.headers{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Op {
+    opacity: 50%;
+}
+.card-holder {
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon {
+    background-color: #3c6efd;
+    width: 25%;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 50px;
+}
+.card {
+    align-items: center;
+}
+.card-title, .card-text {
+    text-align: center;
+}
+.card-title {
+    font-weight: bold;
+}
+.card-text {
+    font-size: 14px
+}
+/*** 
+Our services
+***/
+/*** 
+why choess us
+***/
+.why-us-background {
+    background-color: var(--background-color);
+}
+.info-holder {
+    display: flex;
+    position: relative;
+}
+.numbers {
+    font-weight: bold;
+    color: var(--main-color);
+}
+.numbers::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 1.5px;
+    background-color: black;
+    top: 10px;
+    left: 36px;
+}
+.numb-info {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: -4px;
+}
+.col-4 {
+    display: flex;
+    position: relative;
+}
+.mg-left {
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+/*** 
+why choess us
+***/
+/*** 
+last section
+***/
+.col-6 {
+    position: relative;
+}
+.circle-one,.circle-one-2,.circle-one-3,.circle-tow { 
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.circle-one,.circle-one-2,.circle-one-3{
+    background-image: url(/images/v326-kul-47-connection_2.jpg);
+}
+.circle-one {
+    left: 40%;
+}
+.circle-one-2 {
+    left: 93%;
+    width: 50px;
+    height: 50px;
+}
+.circle-one-3 {
+    top: 30%;
+    left: 94%;
+    width: 30px;
+    height: 30px;
+}
+.circle-tow {
+    left: 50%;
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--font-color-2);
+}
+.ten {
+    display: block;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-top: 15px;
+    font-size: 70px;
+}
+.numb {
+    font-weight: bold;
+    color: var(--main-color);
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.desc {
+    font-weight: bolder;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+/*** 
+last section
+***/
