@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #2c2c2c;
+  font-size: 20px;
+  z-index: 0;
+  transition: 1s;
+}
+
+.btn::before,
+.btn::after {
+  position: absolute;
+  background: #eee;
+  z-index: -1;
+  transition: 1s;
+  content: '';
+}
+.btn::before {
+  height: 50px;
+  width: 130px;
+}
+.btn::after {
+  width: 150px;
+  height: 30px;
+}
+.btn:hover::before,
+.btn:hover::after,
+.btn:hover {
+  background: #fff;
+}
+.btn:hover::before {
+  width: 0px;
+}
+.btn:hover::after {
+  height: 0px;
+}
